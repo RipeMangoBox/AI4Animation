@@ -76,3 +76,8 @@ AI4Animation/SIGGRAPH_2022/Unity/Logs
 # Other
 AI4Animation/SIGGRAPH_2020/Unity/Assets/Demo/Basketball/Build
 AI4Animation/SIGGRAPH_2020/Unity/Assets/Demo/Basketball/Build.meta
+*.onnx
+/AI4Animation/SIGGRAPH_2022/Unity/Assets/Projects/DeepPhase/Demos/Quadruped/Assets
+*.pt
+/AI4Animation/SIGGRAPH_2022/Unity
+

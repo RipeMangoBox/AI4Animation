@@ -28,7 +28,7 @@ if __name__ == '__main__':
     phase_channels = 5 #desired number of latent phase channels (usually between 2-10)
 
     epochs = 10
-    batch_size = 32
+    batch_size = 512
     learning_rate = 1e-4
     weight_decay = 1e-4
     restart_period = 10

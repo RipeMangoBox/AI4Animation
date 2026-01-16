@@ -264,7 +264,7 @@ def SaveONNX(path, model, input_size, input_names, output_names):
         model,                            # model being run
         torch.randn(1, input_size),          # model input (or a tuple for multiple inputs)
         path,            # where to save the model (can be a file or file-like object)
-        training=False,
+        training=torch.onnx.TrainingMode.EVAL,
         export_params=True,                 # store the trained parameter weights inside the model file
         opset_version=9,                    # the ONNX version to export the model to
         do_constant_folding=False,          # whether to execute constant folding for optimization
